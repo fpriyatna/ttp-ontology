@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://vocab.linkeddata.es/datosabiertos/def/transporte/"
+     xml:base="http://vocab.linkeddata.es/datosabiertos/def/transporte/"
+     xmlns:schema="http://schema.org/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:geo="http://www.opengis.net/ont/geosparql#"
+     xmlns:ttp="http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:tp="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <owl:Ontology rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte">
+        <owl:imports rdf:resource="http://www.w3.org/ns/sosa/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#perfil -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#perfil"/>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#tipoValidacion -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#tipoValidacion"/>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#titulo -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#titulo"/>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#coronaTarifaria -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#coronaTarifaria">
+        <rdfs:range rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#CoronaTarifa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#linea -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#linea">
+        <rdfs:range rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Linea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#municipio -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#municipio">
+        <rdfs:range rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Municipio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#operador -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#operador">
+        <rdfs:range rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Operador"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#parada -->
+
+    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#parada">
+        <rdfs:range rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Parada"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#codigoEstacion -->
+
+    <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#codigoEstacion"/>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#codigoItinerario -->
+
+    <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#codigoItinerario"/>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#distanciaParadaAnterior -->
+
+    <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#distanciaParadaAnterior"/>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#numeroOrden -->
+
+    <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#numeroOrden"/>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#sentido -->
+
+    <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#sentido"/>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#tipoItinerario -->
+
+    <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#tipoItinerario"/>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#velocidadParadaAnterior -->
+
+    <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#velocidadParadaAnterior"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#Entrada -->
+
+    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#Entrada">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#Validacion -->
+
+    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#Validacion">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#ValorValidacion -->
+
+    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#ValorValidacion">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Result"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#CoronaTarifa -->
+
+    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#CoronaTarifa"/>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#DPayPoint -->
+
+    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#DPayPoint">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Linea -->
+
+    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Linea"/>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Municipio -->
+
+    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Municipio"/>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Operador -->
+
+    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Operador"/>
+    
+
+
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Parada -->
+
+    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Parada"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
