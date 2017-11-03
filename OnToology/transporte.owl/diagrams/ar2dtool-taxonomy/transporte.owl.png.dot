@@ -1,0 +1,10 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "tp:DPayPoint" "ttp:ValorValidacion" "ttp:Validacion" "ttp:Entrada" "sosa:ObservableProperty" "sosa:Observation" "sosa:Sensor" "sosa:Result" ; /*classes style*/
+	"ttp:ValorValidacion" -> "sosa:Result" [ label = "rdfs:subClassOf" ];
+	"ttp:Entrada" -> "sosa:ObservableProperty" [ label = "rdfs:subClassOf" ];
+	"ttp:Validacion" -> "sosa:Observation" [ label = "rdfs:subClassOf" ];
+	"tp:DPayPoint" -> "sosa:Sensor" [ label = "rdfs:subClassOf" ];
+
+}

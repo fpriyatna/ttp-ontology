@@ -1,0 +1,111 @@
+<http://vocab.linkeddata.es/datosabiertos/def/transporte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://vocab.linkeddata.es/datosabiertos/def/transporte> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/sosa/> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#perfil
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#perfil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#tipoValidacion
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#tipoValidacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#titulo
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#titulo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#coronaTarifaria
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#coronaTarifaria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#coronaTarifaria> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#CoronaTarifa> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#linea
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#linea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#linea> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Linea> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#municipio
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#municipio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#municipio> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Municipio> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#operador
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#operador> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#operador> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Operador> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#parada
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#parada> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#parada> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Parada> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#codigoEstacion
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#codigoEstacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#codigoItinerario
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#codigoItinerario> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#distanciaParadaAnterior
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#distanciaParadaAnterior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#numeroOrden
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#numeroOrden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#sentido
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#sentido> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#tipoItinerario
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#tipoItinerario> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#velocidadParadaAnterior
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#velocidadParadaAnterior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#Entrada
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#Entrada> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#Entrada> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/sosa/ObservableProperty> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#Validacion
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#Validacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#Validacion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/sosa/Observation> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#ValorValidacion
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#ValorValidacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#ValorValidacion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/sosa/Result> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#CoronaTarifa
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#CoronaTarifa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#DPayPoint
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#DPayPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#DPayPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/sosa/Sensor> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Linea
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Linea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Municipio
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Municipio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Operador
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Operador> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Parada
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Parada> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/

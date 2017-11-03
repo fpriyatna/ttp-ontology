@@ -1,0 +1,96 @@
+{
+  "@context" : {
+    "parada" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#parada",
+      "@type" : "@id"
+    },
+    "velocidadParadaAnterior" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#velocidadParadaAnterior"
+    },
+    "tipoValidacion" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#tipoValidacion",
+      "@type" : "@id"
+    },
+    "linea" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#linea",
+      "@type" : "@id"
+    },
+    "Linea" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Linea"
+    },
+    "titulo" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#titulo",
+      "@type" : "@id"
+    },
+    "DPayPoint" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#DPayPoint"
+    },
+    "CoronaTarifa" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#CoronaTarifa"
+    },
+    "ValorValidacion" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#ValorValidacion"
+    },
+    "Result" : {
+      "@id" : "http://www.w3.org/ns/sosa/Result"
+    },
+    "Municipio" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Municipio"
+    },
+    "coronaTarifaria" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#coronaTarifaria",
+      "@type" : "@id"
+    },
+    "perfil" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#perfil",
+      "@type" : "@id"
+    },
+    "Entrada" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#Entrada"
+    },
+    "sentido" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#sentido"
+    },
+    "numeroOrden" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#numeroOrden"
+    },
+    "codigoEstacion" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#codigoEstacion"
+    },
+    "codigoItinerario" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#codigoItinerario"
+    },
+    "tipoItinerario" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#tipoItinerario"
+    },
+    "Parada" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Parada"
+    },
+    "operador" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#operador",
+      "@type" : "@id"
+    },
+    "ObservableProperty" : {
+      "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+    },
+    "Validacion" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/tarjeta-transporte-publico#Validacion"
+    },
+    "distanciaParadaAnterior" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#distanciaParadaAnterior"
+    },
+    "Observation" : {
+      "@id" : "http://www.w3.org/ns/sosa/Observation"
+    },
+    "Sensor" : {
+      "@id" : "http://www.w3.org/ns/sosa/Sensor"
+    },
+    "Operador" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Operador"
+    },
+    "municipio" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#municipio",
+      "@type" : "@id"
+    }
+  }
+}
