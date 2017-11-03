@@ -37,8 +37,8 @@ node [shape = rectangle, color="orange"]; "tp:Parada" "tp:Operador" "tp:Municipi
 	"sosa:observedProperty" -> "sosa:ObservableProperty" [ label = "schema:rangeIncludes" ];
 	"sosa:observedProperty" -> "sosa:Observation" [ label = "schema:domainIncludes" ];
 	"sosa:" -> "http://www.opengeospatial.org/ogc/Software" [ label = "dcterms:license" ];
-	"sosa:" -> "a59d86d3fbabe6ba660ff0893ed0be45" [ label = "dcterms:creator" ];
 	"sosa:" -> "http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document" [ label = "dcterms:license" ];
+	"sosa:" -> "b8e1e61d51586058d37b24cbee701a97" [ label = "dcterms:creator" ];
 	"sosa:isHostedBy" -> "sosa:Platform" [ label = "schema:rangeIncludes" ];
 	"sosa:isHostedBy" -> "sosa:Platform" [ label = "schema:domainIncludes" ];
 	"sosa:isHostedBy" -> "sosa:Sampler" [ label = "schema:domainIncludes" ];
