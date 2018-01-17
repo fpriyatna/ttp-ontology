@@ -48,7 +48,8 @@
 ###  http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#parada
 <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#parada> rdf:type owl:ObjectProperty ;
                                                                                     rdfs:range <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Parada> ;
-                                                                                    rdfs:comment "bus stop"@en .
+                                                                                    rdfs:comment "bus stop"@en ;
+                                                                                    rdfs:label "bus stop"@en .
 
 
 #################################################################

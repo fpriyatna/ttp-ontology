@@ -25,6 +25,9 @@
     "DPayPoint" : {
       "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#DPayPoint"
     },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
     "CoronaTarifa" : {
       "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#CoronaTarifa"
     },
