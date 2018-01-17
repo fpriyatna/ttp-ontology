@@ -38,6 +38,7 @@
 <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#parada> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#parada> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Parada> .
 <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#parada> <http://www.w3.org/2000/01/rdf-schema#comment> "bus stop"@en .
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#parada> <http://www.w3.org/2000/01/rdf-schema#label> "bus stop"@en .
 # 
 # 
 # 
