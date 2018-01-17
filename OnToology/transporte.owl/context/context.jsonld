@@ -70,6 +70,9 @@
       "@id" : "http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#operador",
       "@type" : "@id"
     },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
     "ObservableProperty" : {
       "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
     },
