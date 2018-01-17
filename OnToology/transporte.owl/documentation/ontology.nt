@@ -25,6 +25,7 @@
 # http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#linea
 <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#linea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#linea> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Linea> .
+<http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#linea> <http://www.w3.org/2000/01/rdf-schema#label> "bus line"@en .
 # 
 # http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#municipio
 <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#municipio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .

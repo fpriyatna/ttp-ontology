@@ -32,7 +32,8 @@
 
 ###  http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#linea
 <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#linea> rdf:type owl:ObjectProperty ;
-                                                                                   rdfs:range <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Linea> .
+                                                                                   rdfs:range <http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#Linea> ;
+                                                                                   rdfs:label "bus line"@en .
 
 
 ###  http://vocab.linkeddata.es/datosabiertos/def/transporte/transporte-publico#municipio
